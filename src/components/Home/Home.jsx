@@ -1,8 +1,13 @@
 import React from 'react'
+import Portfolio from '../../misc/Animations/Portfolio'
+import portfolio from '../../assets/portfolio.json'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <div>Home</div>
+      <Portfolio animData={portfolio}/>
+    </div>
   )
 }
 
