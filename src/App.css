@@ -6,6 +6,28 @@ Nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
+  min-height: 8vh;
   background-color: #72729d;
+}
+
+.landing {
+  display: flex;
+  height: 50vh;
+}
+
+.left-container{
+  width: 50%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background: #2a2a3c;
+  color: pink;
+} 
+
+.right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2a2a3c;
 }
