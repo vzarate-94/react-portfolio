@@ -8,8 +8,8 @@ function Home() {
     <div className='landing'>
       <div className='left-container'>
         <div className="d-grid gap-2">
-                  <Link to='/oliver'>
-                      <button className="btn oliver-btn" type="button"><strong>Oliver</strong></button>
+                  <Link to='/portfolio'>
+                      <button className="btn oliver-btn" type="button"><strong>Portfolio</strong></button>
                   </Link>
                   <a href='https://github.com/vzarate-94' target="_blank" rel='noreferrer'><button className="btn oscar-btn" type="button"><strong>Github</strong></button></a>
                   

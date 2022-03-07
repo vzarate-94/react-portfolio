@@ -1,15 +1,20 @@
 import React from 'react'
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/Home/Home'
-import Nav from './components/Nav/Nav'
+import Portfolio from './components/Portfolio/Portfolio';
+
+
 import './App.css';
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <Nav />
-      <Home />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/portfolio' element={<Portfolio />} />
+    </Routes>
+
     </div>
     </Router>
   );
