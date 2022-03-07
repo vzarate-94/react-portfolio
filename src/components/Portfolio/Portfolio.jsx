@@ -1,11 +1,16 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
+import PersonalStatement from '../PersonalStatement/PersonalStatement'
+import '../../App.css'
 
 function Portfolio() {
   return (
     <>
-    <Nav />
-    <div>Portfolio</div>
+      <div className='portfolio-page'>
+        <Nav />
+        <PersonalStatement />
+        <div>Portfolio</div>
+        </div>
     </>
   )
 }
