@@ -91,3 +91,34 @@ Nav {
   width: 70%;
   border-radius: 40%;
 }
+
+.thumb {
+  flex: 1;
+  margin: 3px;
+  height: 200px;
+  width: 295px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+#wrapper {
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#thumbnails {
+  position: relative;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bigImage {
+  height: 600px;
+  width: 98%;
+  object-fit: cover;
+  border: 5px solid #2a2a3c;
+}

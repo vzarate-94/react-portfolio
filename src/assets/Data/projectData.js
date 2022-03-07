@@ -1,7 +1,7 @@
 import GoldenBoys from '../images/GoldenBoys.png'
-import Original from '../images/Original.png'
+import Original from '../images/Original.jpg'
 import quizGame from '../images/quizGame.png'
-import scourseCard from '../images/scourseCard.png'
+import scoursecard from '../images/scoursecard.png'
 import WeTravel from '../images/WeTravel.png'
 import sanMiguel from '../images/sanMiguel.png'
 
@@ -14,23 +14,23 @@ const projectData = [
   },
   {
     img: Original,
-    title: "Golden Boys"
+    title: "Original"
   },
   {
     img: quizGame,
-    title: "Golden Boys"
+    title: "quiz game"
   },
   {
-    img: scourseCard,
-    title: "Golden Boys"
+    img: scoursecard,
+    title: "scorescarrd"
   },
   {
     img: WeTravel,
-    title: "Golden Boys"
+    title: "Travel"
   },
   {
     img: sanMiguel,
-    title: "Golden Boys"
+    title: "San miguel"
   },
 ]
 
