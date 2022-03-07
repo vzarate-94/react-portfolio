@@ -4,7 +4,9 @@ import '../../App.css'
 function Nav() {
   return (
     <nav>
-      <h1>Home</h1>
+      <h3>Home</h3>
+      <h3>Portfolio</h3>
+      <h3>Contact</h3>
     </nav>
   )
 }

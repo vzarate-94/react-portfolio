@@ -6,13 +6,13 @@ Nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 10vh;
   background-color: #72729d;
 }
 
 .landing {
   display: flex;
-  height: 50vh;
+  height: 100vh;
 }
 
 .left-container{
@@ -30,4 +30,22 @@ Nav {
   align-items: center;
   justify-content: center;
   background: #2a2a3c;
+}
+
+.oliver-btn {
+  background-color: rgb(128, 157, 250);
+  width: 230%;
+}
+
+.oliver-btn:hover {
+  background-color: rgb(50, 55, 184);
+}
+
+.oscar-btn {
+  background-color: rgb(205, 63, 87);
+  width: 230%;
+}
+
+.oscar-btn:hover {
+  background-color: rgb(162, 39, 96);
 }

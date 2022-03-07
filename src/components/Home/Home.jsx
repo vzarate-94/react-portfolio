@@ -7,9 +7,13 @@ function Home() {
   return (
     <div className='landing'>
       <div className='left-container'>
-      <Link to='/portfolio'>
-        <button>Welcome</button>
-        </Link>
+        <div className="d-grid gap-2">
+                  <Link to='/oliver'>
+                      <button className="btn oliver-btn" type="button"><strong>Oliver</strong></button>
+                  </Link>
+                  <a href='https://github.com/vzarate-94' target="_blank" rel='noreferrer'><button className="btn oscar-btn" type="button"><strong>Github</strong></button></a>
+                  
+                </div>
       </div>
       <div className='right-container'> 
       <Portfolio animData={portfolio}/>
