@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
+import Projects from '../Projects/Projects'
 import PersonalStatement from '../PersonalStatement/PersonalStatement'
 import '../../App.css'
 
@@ -9,7 +10,7 @@ function Portfolio() {
       <div className='portfolio-page'>
         <Nav />
         <PersonalStatement />
-        <div>Portfolio</div>
+        <Projects />
         </div>
     </>
   )
