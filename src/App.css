@@ -174,4 +174,35 @@ Nav {
   padding: 3%;
 }
 
+/* Footer page styling css below */
 
+.footer {
+  background-color: #2a2a3c;
+  color: white;
+  height: 700px;
+}
+
+.logo {
+  height: 300px;
+  width: 560px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.contact-link {
+  margin-left: 5px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
