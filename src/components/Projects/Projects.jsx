@@ -29,15 +29,16 @@ const images = projectData.map((image) => {
 })
 
 return (
-    <div>
       <div className='dog-pages'>
         <div id="wrapper">
           <div id="thumbnails">{images}</div>
-          <h1>{bigTitle}</h1>
-          <img src={bigImage}  id="bigImage" alt="bigImage"/>
+          <div id="big-project">
+            <h1>{bigTitle}</h1>
+            <img src={bigImage}  id="bigImage" alt="bigImage"/>
+          </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 
