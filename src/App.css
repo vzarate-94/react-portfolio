@@ -116,7 +116,7 @@ Nav {
 
 .project-landing {
   display: flex;
-  height: 230vh;
+  height: 1600px;
   margin-top: -20%;
 }
 
@@ -159,7 +159,7 @@ Nav {
 }
 
 #bigImage {
-  height: 650px;
+  height: 670px;
   width: 100%;
   object-fit: cover;
   border: 5px solid #2a2a3c;
@@ -170,7 +170,7 @@ Nav {
   background-color: rgb(128, 157, 250);
   font-size: 22px;
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 3%;
 }
 
