@@ -17,11 +17,11 @@ const images = projectData.map((image) => {
     <span>
       <h4>{image.title}</h4>
       <img 
-        style={{ border: bigImage === image.img ? "5px solid rgb(205, 71, 71)" : "2px solid white" }}
+        style={{ border: bigImage === image.img ? '5px solid rgb(205, 71, 71)' : '2px solid white' }}
         onClick={() => handleClick(image.img, image.title)}
         src={image.img}
         alt={image.title}
-        className={"thumb"}
+        className={'thumb'}
         key={image.key}
       />
     </span>
@@ -29,15 +29,15 @@ const images = projectData.map((image) => {
 })
 
 return (
-      <div className='dog-pages'>
-        <h1 id="project-head">Projects!</h1>
-        <div  className="project-landing"  id="portfolio-wrapper">
+      <div>
+        <h1 id='project-head'>Projects!</h1>
+        <div  className='project-landing'>
           <div className='left-portfolio'>
-            <div id="thumbnails" >{images}</div>
+            <div id='thumbnails'>{images}</div>
           </div>
-          <div id="big-project" className='right-project'>
+          <div className='right-project'>
             <h1>{bigTitle}</h1>
-            <img src={bigImage}  id="bigImage" alt="bigImage"/>
+            <img src={bigImage}  id='bigImage' alt='bigImage'/>
           </div>
         </div>
       </div>

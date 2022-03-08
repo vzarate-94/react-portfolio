@@ -12,11 +12,11 @@ function Home() {
             <h1 id='name-head'>Victor Zarate-Bustamante</h1>
             <h2>Software Engineer</h2>
           </div>
-          <div className="d-grid gap-2">
+          <div className='d-grid gap-2'>
                     <Link to='/portfolio'>
-                        <button className="btn oliver-btn" type="button"><strong>Portfolio</strong></button>
+                        <button className='btn oliver-btn' type='button'><strong>Portfolio</strong></button>
                     </Link>
-                    <a href='https://github.com/vzarate-94' target="_blank" rel='noreferrer'><button className="btn oscar-btn" type="button"><strong>Github</strong></button></a>
+                    <a href='https://github.com/vzarate-94' target='_blank' rel='noreferrer'><button className='btn oscar-btn' type='button'><strong>Github</strong></button></a>
                     
                   </div>
         </div>

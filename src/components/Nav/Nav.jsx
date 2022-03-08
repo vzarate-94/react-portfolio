@@ -5,14 +5,14 @@ import '../../App.css'
 function Nav() {
   return (
     <nav>
-      <Link to="/">
-      <button className="btn" type="button"><strong>Home</strong></button>
+      <Link to='/'>
+      <button className='btn' type='button'><strong>Home</strong></button>
       </Link>
-      <Link to="/portfolio">
-      <button className="btn" type="button"><strong>Portfolio</strong></button>
+      <Link to='/portfolio'>
+      <button className='btn' type='button'><strong>Portfolio</strong></button>
       </Link>
-      <Link to="/contact">
-      <button className="btn" type="button"><strong>Contact</strong></button>
+      <Link to='/contact'>
+      <button className='btn' type='button'><strong>Contact</strong></button>
       </Link>
     </nav>
   )

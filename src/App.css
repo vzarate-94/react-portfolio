@@ -70,6 +70,12 @@ Nav {
 }
 
 /* portfolio page components styling below */
+
+.portfolio-page {
+  background-color: #2a2a3c;
+  color: rgb(205, 71, 71);
+}
+
 /* personal statement component styling below */
 
 .portfolio-landing {
@@ -98,12 +104,17 @@ Nav {
   justify-content: center;
 }
 
-.right-container {
-  width: 50%;
+/* Styling for projects compponent below */
+
+#project-head {
+  font-size: 80px;
+  color: #72729d;
+  margin-top: 100px;
+}
+
+.project-landing {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #2a2a3c;
+  height: 150vh;
 }
 
 .right-project {
@@ -118,19 +129,6 @@ Nav {
     background: #2a2a3c;
   
 }
-
-.project-landing {
-  width: 90%;
-  display: flex;
-  height: 150vh;
-}
-
-
-.portfolio-page {
-  background-color: #2a2a3c;
-  color: rgb(205, 71, 71);
-}
-
 
 
 .thumb {
@@ -151,11 +149,6 @@ Nav {
   padding: 20px;
 }
 
-#portfolio-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 #thumbnails {
   position: relative;
@@ -170,12 +163,6 @@ Nav {
   object-fit: cover;
   border: 5px solid #2a2a3c;
   border-radius: 15px;
-}
-
-#project-head {
-  font-size: 80px;
-  color: #72729d;
-  margin-top: 100px;
 }
 
 
