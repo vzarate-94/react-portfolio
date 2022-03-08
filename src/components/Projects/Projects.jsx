@@ -17,7 +17,7 @@ const images = projectData.map((image) => {
     <span>
       <h4>{image.title}</h4>
       <img 
-        style={{ border: bigImage === image.img ? "5px solid pink" : "2px solid white" }}
+        style={{ border: bigImage === image.img ? "5px solid rgb(205, 71, 71)" : "2px solid white" }}
         onClick={() => handleClick(image.img, image.title)}
         src={image.img}
         alt={image.title}
