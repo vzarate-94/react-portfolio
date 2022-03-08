@@ -9,7 +9,7 @@ function Home() {
       <div className='landing'>
         <div className='left-container'>
           <div className='message'>
-            <h1>Victor Zarate-Bustamante</h1>
+            <h1 id='name-head'>Victor Zarate-Bustamante</h1>
             <h2>Software Engineer</h2>
           </div>
           <div className="d-grid gap-2">
