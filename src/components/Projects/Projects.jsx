@@ -32,7 +32,7 @@ return (
       <div>
         <h1 id='project-head'>Projects!</h1>
         <div  className='project-landing'>
-          <div className='left-portfolio'>
+          <div className='left-project'>
             <div id='thumbnails'>{images}</div>
           </div>
           <div className='right-project'>
