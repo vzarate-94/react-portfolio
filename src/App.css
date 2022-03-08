@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  font-family: 'IBM Plex Sans'
 }
 
 Nav {
@@ -133,6 +136,7 @@ Nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 5%;
 
 }
 
