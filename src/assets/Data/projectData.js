@@ -14,23 +14,23 @@ const projectData = [
   },
   {
     img: Original,
-    title: "Original"
+    title: "Original Portfolio"
   },
   {
     img: quizGame,
-    title: "quiz game"
+    title: "Sports Trivia Central"
   },
   {
     img: scoursecard,
-    title: "scorescarrd"
+    title: "ScoresCard"
   },
   {
     img: WeTravel,
-    title: "Travel"
+    title: "WE!Travel"
   },
   {
     img: sanMiguel,
-    title: "San miguel"
+    title: "San Miguel INC"
   },
 ]
 

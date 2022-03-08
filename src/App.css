@@ -94,17 +94,18 @@ Nav {
 
 .thumb {
   flex: 1;
-  margin: 3px;
+  margin: 8px;
   height: 200px;
-  width: 295px;
+  width: 297px;
   display: flex;
   flex-direction: row;
   cursor: pointer;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 #wrapper {
-  width: 950px;
+  width: 981px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -118,7 +119,8 @@ Nav {
 
 #bigImage {
   height: 600px;
-  width: 98%;
+  width: 100%;
   object-fit: cover;
   border: 5px solid #2a2a3c;
+  border-radius: 15px;
 }
