@@ -8,8 +8,10 @@ function Home() {
     <>   
       <div className='landing'>
         <div className='left-container'>
-        <h1>Victor Zarate-Bustamante</h1>
-        <h2>Software Engineer</h2>
+          <div className='message'>
+            <h1>Victor Zarate-Bustamante</h1>
+            <h2>Software Engineer</h2>
+          </div>
           <div className="d-grid gap-2">
                     <Link to='/portfolio'>
                         <button className="btn oliver-btn" type="button"><strong>Portfolio</strong></button>

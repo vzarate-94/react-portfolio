@@ -10,27 +10,33 @@ import sanMiguel from '../images/sanMiguel.png'
 const projectData = [
   {
     img: GoldenBoys,
-    title: "Golden Boys"
+    title: "Golden Boys",
+    key: 1
   },
   {
     img: Original,
-    title: "Original Portfolio"
+    title: "Original Portfolio",
+    key: 2
   },
   {
     img: quizGame,
-    title: "Sports Trivia Central"
+    title: "Sports Trivia Central",
+    key: 3
   },
   {
     img: scoursecard,
-    title: "ScoresCard"
+    title: "ScoresCard",
+    key: 4
   },
   {
     img: WeTravel,
-    title: "WE!Travel"
+    title: "WE!Travel",
+    key: 5
   },
   {
     img: sanMiguel,
-    title: "San Miguel INC"
+    title: "San Miguel INC",
+    key: 6
   },
 ]
 

@@ -12,7 +12,7 @@ const handleClick = (imgUrl, imgTitle) => {
   setBigTitle(imgTitle)
 }
 
-const images = projectData.map((image,title, i) => {
+const images = projectData.map((image) => {
   return (
     <span>
       <h4>{image.title}</h4>
@@ -20,9 +20,9 @@ const images = projectData.map((image,title, i) => {
         style={{ border: bigImage === image.img ? "5px solid pink" : "2px solid white" }}
         onClick={() => handleClick(image.img, image.title)}
         src={image.img}
-        alt={image.city}
+        alt={image.title}
         className={"thumb"}
-        key={i}
+        key={image.key}
       />
     </span>
   )
