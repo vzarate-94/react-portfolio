@@ -30,7 +30,8 @@ const images = projectData.map((image) => {
 
 return (
       <div className='dog-pages'>
-        <div  className="project-landing"  id="wrapper">
+        <h1 id="project-head">Projects!</h1>
+        <div  className="project-landing"  id="portfolio-wrapper">
           <div className='left-portfolio'>
             <div id="thumbnails" >{images}</div>
           </div>
