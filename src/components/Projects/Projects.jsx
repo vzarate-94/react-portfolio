@@ -7,9 +7,12 @@ const [bigImage, setBigImage] = useState(projectData[0].img)
 
 const [bigTitle, setBigTitle] = useState(projectData[0].title)
 
-const handleClick = (imgUrl, imgTitle) => {
+const [bigDetails, setBIgDetails] = useState(projectData[0].details)
+
+const handleClick = (imgUrl, imgTitle, imgDetails) => {
   setBigImage(imgUrl)
   setBigTitle(imgTitle)
+  setBIgDetails(imgDetails)
 }
 
 const images = projectData.map((image) => {
@@ -18,7 +21,7 @@ const images = projectData.map((image) => {
       <h4>{image.title}</h4>
       <img 
         style={{ border: bigImage === image.img ? '5px solid rgb(205, 71, 71)' : '2px solid white' }}
-        onClick={() => handleClick(image.img, image.title)}
+        onClick={() => handleClick(image.img, image.title, image.details)}
         src={image.img}
         alt={image.title}
         className={'thumb'}
@@ -38,6 +41,7 @@ return (
           <div className='right-project'>
             <h1>{bigTitle}</h1>
             <img src={bigImage}  id='bigImage' alt='bigImage'/>
+            <p className='details'>{bigDetails}</p>
           </div>
         </div>
       </div>
