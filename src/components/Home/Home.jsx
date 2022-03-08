@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Portfolio from '../../misc/Animations/Portfolio'
+import Portfolio from '../../misc/Animations/Lottie'
 import portfolio from '../../assets/portfolio.json'
 
 function Home() {
