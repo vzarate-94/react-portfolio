@@ -49,10 +49,12 @@ return (
             <h1>{bigTitle}</h1>
             <img src={bigImage}  id='bigImage' alt='bigImage'/>
             <p className='details'>{bigDetails}</p>
-            <div>
-            <a href={bigWebsite} target='_blank' rel='noreferrer'><button className='btn oscar-btn' type='button'><strong>Website</strong></button></a>
-            <a href={bigRepo} target='_blank' rel='noreferrer'><button className='btn oscar-btn' type='button'><strong>Github Repo</strong></button></a>
-            </div>
+          <div>
+          <div className='project-btn-div'>
+            <a href={bigWebsite} target='_blank' rel='noreferrer'><button className='btn website-btn' type='button'><strong>Website</strong></button></a>
+            <a href={bigRepo} target='_blank' rel='noreferrer'><button className='btn website-btn' type='button'><strong>Github Repo</strong></button></a>
+          </div>
+          </div>
           </div>
         </div>
       </div>
