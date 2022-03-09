@@ -9,6 +9,8 @@ const [bigTitle, setBigTitle] = useState(projectData[0].title)
 
 const [bigDetails, setBIgDetails] = useState(projectData[0].details)
 
+const [bigWebsite, setBigWebsite] = useState(projectData[0].website)
+
 const handleClick = (imgUrl, imgTitle, imgDetails) => {
   setBigImage(imgUrl)
   setBigTitle(imgTitle)
@@ -42,6 +44,10 @@ return (
             <h1>{bigTitle}</h1>
             <img src={bigImage}  id='bigImage' alt='bigImage'/>
             <p className='details'>{bigDetails}</p>
+            <div>
+            <a href='https://github.com/vzarate-94' target='_blank' rel='noreferrer'><button className='btn oscar-btn' type='button'><strong>Github</strong></button></a>
+            <a href='https://github.com/vzarate-94' target='_blank' rel='noreferrer'><button className='btn oscar-btn' type='button'><strong>Github</strong></button></a>
+            </div>
           </div>
         </div>
       </div>

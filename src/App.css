@@ -13,6 +13,10 @@ Nav {
   background-color: rgb(128, 157, 250);
 }
 
+.btn:hover {
+  color: white;
+}
+
 /* Landing stylilng below */
 .landing {
   display: flex;
@@ -99,11 +103,16 @@ Nav {
 .right-portfolio {
   width: 60%;
   display: flex;
+  flex-direction: column;
   font-size: 26px;
   margin-right: 10%;
   margin-left: 10%;
   align-items: center;
   justify-content: center;
+}
+
+.personal-statement-name {
+  color: rgb(128, 157, 250);
 }
 
 /* Styling for projects compponent below */
@@ -205,4 +214,8 @@ Nav {
 a{
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(128, 157, 250);
 }
