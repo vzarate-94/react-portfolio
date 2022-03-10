@@ -20,7 +20,7 @@ const projectData = [
     img: WeTravel,
     title: "WE!Travel",
     key: 5,
-    details: "A small team of developers and I built this travel app using the MERN stack. Travel is rapidly growing once again so we decided to help travelers by combining all your travel organization needs into one app. Using the Unsplash API, we were able to provide an extensive travel inspirational page to get anyone in the mood to travel internationally again.",
+    details: "A small team of developers and I built this travel app using the MERN stack. Travel is rapidly growing once again so we decided to help travelers by combining all your travel organization needs into one app. Using the Unsplash API, we were able to provide an extensive and inspirational travel page to get anyone in the mood to travel internationally again.",
     website: "https://we-travel.herokuapp.com/",
     repo: "https://github.com/jonathanherman1/we-travel"
   },
@@ -52,7 +52,7 @@ const projectData = [
     img: GoldenBoys,
     title: "Golden Boys",
     key: 1,
-    details: "I was asked to quickly build an app using react to show off some of my designing skills. I knew I had to use two of the best models any one could ask for, Oscar and Oliver. ",
+    details: "I was asked to quickly build an app using React to show off some of my designing skills. I knew I had to use two of the best models anyone could ask for, Oscar and Oliver. ",
     website: "https://golden-good-boys.herokuapp.com/",
     repo: 'https://github.com/vzarate-94/golden-goodbois'
   },

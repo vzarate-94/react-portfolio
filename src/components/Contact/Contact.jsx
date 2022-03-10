@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../Nav/Nav'
 import myLogoWhite from '../../assets/images/myLogoWhite.png'
 import '../../App.css'
+import Resume from '../../assets/Resume.pdf'
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
           <div className='contact-link'><a href="https://www.linkedin.com/in/victor-zarate-bustamante/" target="blank"> LinkedIn <i className="fab fa-linkedin"></i> | </a></div>
           <div className='contact-link'><a href="https://github.com/vzarate-94" target="blank"> Github <i className="fab fa-github"></i> | </a></div>
           <div className='contact-link'><a href="https://www.instagram.com/vicz113/" target="blank">Instagram <i className="fab fa-instagram"></i> | </a></div>
-          <div className='contact-link'><a href="https://www.instagram.com/vicz113/" target="blank">Resume <i className="fa-solid fa-file"></i></a></div>
+          <div className='contact-link'><a href={Resume} target="blank">Resume <i className="fa-solid fa-file"></i></a></div>
         </div>
       </footer>
     </>
