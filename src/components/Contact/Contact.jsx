@@ -13,10 +13,11 @@ function Contact() {
         <div className='contact-info'>
           <div className='contact-link'><a 
             href='mailto:vzarate26@gmail.com'>vzarate26@gmail.com<i className="fas fa-paper-plane"></i> | </a></div>
-          <div className='contact-link'><a href="tel:4348256618"> (434) 825-6618 <i class="fas fa-phone-square"></i> |   </a></div>
-          <div className='contact-link'><a href="https://www.linkedin.com/in/victor-zarate-bustamante/" target="blank"> LinkedIn <i class="fab fa-linkedin"></i> | </a></div>
-          <div className='contact-link'><a href="https://github.com/vzarate-94" target="blank"> Github <i class="fab fa-github"></i> | </a></div>
-          <div className='contact-link'><a href="https://www.instagram.com/vicz113/" target="blank">Instagram <i class="fab fa-instagram"></i></a></div>
+          <div className='contact-link'><a href="tel:4348256618"> (434) 825-6618 <i className="fas fa-phone-square"></i> |   </a></div>
+          <div className='contact-link'><a href="https://www.linkedin.com/in/victor-zarate-bustamante/" target="blank"> LinkedIn <i className="fab fa-linkedin"></i> | </a></div>
+          <div className='contact-link'><a href="https://github.com/vzarate-94" target="blank"> Github <i className="fab fa-github"></i> | </a></div>
+          <div className='contact-link'><a href="https://www.instagram.com/vicz113/" target="blank">Instagram <i className="fab fa-instagram"></i> | </a></div>
+          <div className='contact-link'><a href="https://www.instagram.com/vicz113/" target="blank">Resume <i className="fa-solid fa-file"></i></a></div>
         </div>
       </footer>
     </>

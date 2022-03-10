@@ -10,9 +10,9 @@ import sanMiguel from '../images/sanMiguel.png'
 const projectData = [
   {
     img: sanMiguel,
-    title: "San Miguel INC",
+    title: "San Miguel INC.",
     key: 6,
-    details: "This project was inspired by my hometime in Mexico, San Miguel de Allende. It is home to increadible site seeing, food, people, and my favorite, rooftops with amazing views! I built the app using Python and AWS, and will continue to add different sections to showcase the beauty of San Miguel.",
+    details: "This project was inspired by my hometown in Mexico, San Miguel de Allende. It is home to incredible sightseeing, food, people, and my favorite rooftops with amazing views! I built the app using Python and AWS, and will continue to add different sections to showcase the beauty of San Miguel.",
     website: "https://sanmiguelinc.herokuapp.com/",
     repo: 'https://github.com/vzarate-94/sanmiguelinc'
   },
@@ -34,7 +34,7 @@ const projectData = [
   },
   {
     img: scoursecard,
-    title: "ScoresCard",
+    title: "ScourseCard",
     key: 4,
     details: "Using the MEN stack, I built this golf app to help me and my friends better keep track of our golf scores and subsequently our golfing progress. This app records your golf rounds and gives you your average score while also also letting you review the golf courses you have played.",
     website: "https://scourse-card.herokuapp.com/",
