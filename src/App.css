@@ -241,3 +241,31 @@ a{
 a:hover {
   color: rgb(128, 157, 250);
 }
+
+@media only screen and (max-width: 520px) {
+  
+  
+  .landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0%;
+    width: 520px;
+    height: 800px;
+    background-color: #2a2a3c;
+  }
+
+  .left-container {
+    width: 300px;
+  }
+
+  .right-container{
+    width: 300px;
+  }
+
+  #name-head {
+    font-size: 42px;
+  }
+
+}
