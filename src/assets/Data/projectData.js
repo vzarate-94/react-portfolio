@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     img: WeTravel,
-    title: "WE!Travel",
+    title: "WE! Travel",
     key: 5,
     details: "A small team of developers and I built this travel app using the MERN stack. Travel is rapidly growing once again so we decided to help travelers by combining all your travel organization needs into one app. Using the Unsplash API, we were able to provide an extensive and inspirational travel page to get anyone in the mood to travel internationally again.",
     website: "https://we-travel.herokuapp.com/",
@@ -34,9 +34,9 @@ const projectData = [
   },
   {
     img: scoursecard,
-    title: "ScourseCard",
+    title: "Scourse Card",
     key: 4,
-    details: "Using the MEN stack, I built this golf app to help me and my friends better keep track of our golf scores and subsequently our golfing progress. This app records your golf rounds and gives you your average score while also also letting you review the golf courses you have played.",
+    details: "Using the MEN stack, I built this golf app to help me and my friends better keep track of our golf scores and subsequently our golfing progress. This app records your golf rounds, gives you your average score, and allows you to review the courses you have played.",
     website: "https://scourse-card.herokuapp.com/",
     repo: "https://github.com/vzarate-94/Scourse-Card"
   },
