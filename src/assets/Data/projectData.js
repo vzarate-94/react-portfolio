@@ -44,7 +44,7 @@ const projectData = [
     img: Original,
     title: "Original Portfolio",
     key: 2,
-    details: "Before building my current portfolio with React. I originally created this portfolio. I had recently graduated from my Generall Assembly bootcamp and wanted to show off my cool projects. I am proud of what I was able to accomplish and will always look back to this portfolio to celebrate my programming accomplishments and progress!",
+    details: "This is my original portfolio I created before building my current React portfolio. I had recently graduated from my General Assembly bootcamp and wanted to show off my cool projects. I am proud of what I was able to accomplish and will always look back to this portfolio to celebrate my programming accomplishments and progress!",
     website: "https://vzarate-94.github.io/",
     repo: 'https://github.com/vzarate-94/vzarate-94.github.io'
   },
