@@ -6,7 +6,7 @@ import portfolio from '../../assets/portfolio.json'
 function Home() {
   return (
     <>   
-      <div className='landing'>
+      <span className='landing'>
         <div className='left-container'>
           <div className='message'>
             <h1 id='name-head'>Victor Zarate-Bustamante</h1>
@@ -23,7 +23,7 @@ function Home() {
         <div className='right-container'> 
         <Portfolio animData={portfolio}/>
         </div>
-      </div>
+      </span>
     </>
 
   )
