@@ -11,6 +11,9 @@ function Nav() {
       <Link to='/portfolio'>
       <button className='btn' type='button'><strong>Portfolio</strong></button>
       </Link>
+      <Link to='/skills'>
+      <button className='btn' type='button'><strong>Skills</strong></button>
+      </Link>
       <Link to='/contact'>
       <button className='btn' type='button'><strong>Contact</strong></button>
       </Link>
