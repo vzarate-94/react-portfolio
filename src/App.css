@@ -204,6 +204,41 @@ Nav {
   border: 4px solid rgba(47, 11, 250, 0.8);
 }
 
+/* Skills page styling below */
+
+.skills-landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2a2a3c;
+  color: rgb(128, 157, 250);
+  padding-top: 80px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  justify-content: center;
+  width: 80%;
+  list-style: none;
+  border-radius: 30px;
+}
+
+.skill-icons-img {
+  margin: 10px;
+  width: 75px;
+  height: 70px;
+}
+
+
 /* Footer page styling css below */
 
 .footer {
