@@ -17,6 +17,8 @@ import github from '../../assets/skills-icons/github.png'
 import heroku from '../../assets/skills-icons/heroku.png'
 import npm from '../../assets/skills-icons/npm.png'
 import postgresql from '../../assets/skills-icons/postgresql.png'
+import mongodb from '../../assets/skills-icons/mongodb.png'
+import mysql from '../../assets/skills-icons/mysql.png'
 
 
 function Skills() {
@@ -25,8 +27,8 @@ function Skills() {
     <Nav />
       <div className='skills-landing'>
         <h1><strong>Skills</strong></h1>
-        <p>I love to learn new things and experiment with new technologies.
-  These are some of the major languages, technologies, tools and platforms I have worked with:</p>
+        <h5 className='message-skills'>I love to learn new things and experiment with new technologies.
+  These are some of the major languages, technologies, tools and platforms I have worked with:</h5>
       <div className='tools'>
         <h2><strong>Programming/Frameworks/Libraries</strong></h2>
         <ul className='skills-list'>
@@ -53,7 +55,7 @@ function Skills() {
         </ul>
         </div>
         <div className='tools'>
-          <h2><strong>Tootls and Platforms</strong></h2>
+          <h2><strong>Tools and Platforms</strong></h2>
           <ul className='skills-list'>
             <li><img className='skill-icons-img' src={github} alt="" />
             <h4>Github</h4></li>
@@ -72,6 +74,10 @@ function Skills() {
           <ul className='skills-list'>
             <li><img className='skill-icons-img' src={postgresql} alt="" />
             <h4>PostgreSQL</h4></li>
+            <li><img className='skill-icons-img' src={mongodb} alt="" />
+            <h4>mongoDB</h4></li>
+            <li><img className='skill-icons-img' src={mysql} alt="" />
+            <h4>mySQL</h4></li>
           </ul>
         </div>
       </div>
