@@ -276,7 +276,7 @@ a:hover {
   color: rgb(128, 157, 250);
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 650px) {
   .App {
     background-color: #2a2a3c;
   }
@@ -414,6 +414,20 @@ a:hover {
   .contact-info {
     display: flex;
     flex-direction: column;
+  }
+
+  #bigImage {
+    height: 380px;
+  }
+
+  .website-btn {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #bigImage {
+    height: 500px;
   }
 }
 
