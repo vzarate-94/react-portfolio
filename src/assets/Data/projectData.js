@@ -15,7 +15,7 @@ const projectData = [
     key: 7,
     details: "This project was inspired by my hometown in Mexico, San Miguel de Allende. It is home to incredible sightseeing, food, people, and my favorite rooftops with amazing views! I built the app using Python and AWS, and will continue to add different sections to showcase the beauty of San Miguel.",
     website: "https://sanmiguelinc.herokuapp.com/",
-    repo: 'https://github.com/vzarate-94/sanmiguelinc'
+    repo: 'https://github.com/vzarate-94/NewHacks'
   },
   {
     img: sanMiguel,
