@@ -13,8 +13,8 @@ const projectData = [
     img: hacksGlobal,
     title: "Hacks Global",
     key: 7,
-    details: "This project was inspired by my hometown in Mexico, San Miguel de Allende. It is home to incredible sightseeing, food, people, and my favorite rooftops with amazing views! I built the app using Python and AWS, and will continue to add different sections to showcase the beauty of San Miguel.",
-    website: "https://sanmiguelinc.herokuapp.com/",
+    details: "Hacks Global is currently the project I am giving my full attention to. Everyday I come across 'lifehacks' and information that I know one day will be extremely useful but without an easy way to keep track of what I learn. I created HacksGlobal where user can share, learn, and keep the best lifehacks. My hope for this project is to create a community of users eager to help spread valuable information that is accessible to anyone.",
+    website: "https://lyfehacks.herokuapp.com/",
     repo: 'https://github.com/vzarate-94/NewHacks'
   },
   {
