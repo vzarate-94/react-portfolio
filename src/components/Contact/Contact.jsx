@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../Nav/Nav'
 import myLogoWhite from '../../assets/images/myLogoWhite.png'
 import '../../App.css'
-import Resume from '../../assets/Resume.pdf'
+import Resume from '../../assets/Resume2.pdf'
 
 function Contact() {
   return (
