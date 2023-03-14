@@ -10,7 +10,7 @@ function Home() {
         <div className='left-container'>
           <div className='message'>
             <h1 id='name-head'><strong>Victor Zarate-Bustamante</strong></h1>
-            <h2>Software Engineer</h2>
+            <h2>Software Developer</h2>
           </div>
           <div className='d-grid gap-2'>
                     <Link to='/portfolio'>
