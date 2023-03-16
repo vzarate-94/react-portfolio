@@ -10,7 +10,7 @@ Nav {
   justify-content: space-around;
   align-items: center;
   min-height: 80px;
-  background: linear-gradient ( to right,  #809dfa, #6586f5);
+  background: linear-gradient(to right, #809dfa, #435eb8);
 }
 
 .btn:hover {
